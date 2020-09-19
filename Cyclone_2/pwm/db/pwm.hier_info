@@ -1,0 +1,23 @@
+|pwm
+clk => counter[8].CLK
+clk => counter[7].CLK
+clk => counter[6].CLK
+clk => counter[5].CLK
+clk => counter[4].CLK
+clk => counter[3].CLK
+clk => counter[2].CLK
+clk => counter[1].CLK
+clk => counter[0].CLK
+dutty_cycle[0] => LessThan0.IN9
+dutty_cycle[1] => LessThan0.IN8
+dutty_cycle[2] => LessThan0.IN7
+dutty_cycle[3] => LessThan0.IN6
+dutty_cycle[4] => LessThan0.IN5
+dutty_cycle[5] => LessThan0.IN4
+dutty_cycle[6] => LessThan0.IN3
+dutty_cycle[7] => LessThan0.IN2
+dutty_cycle[8] => LessThan0.IN1
+pwm <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+masse <= <GND>
+
+
