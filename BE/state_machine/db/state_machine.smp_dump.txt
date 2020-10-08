@@ -1,0 +1,7 @@
+
+State Machine - |state_machine|State
+Name State.acq State.mono State.cont State.init 
+State.init 0 0 0 0 
+State.cont 0 0 1 1 
+State.mono 0 1 0 1 
+State.acq 1 0 0 1 
