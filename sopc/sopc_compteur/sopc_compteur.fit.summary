@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 23 18:11:38 2020
+Quartus II 32-bit Version : 11.1 Build 259 01/25/2012 SP 2 SJ Web Edition
+Revision Name : sopc_compteur
+Top-level Entity Name : sopc_compteur
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 1,621 / 22,320 ( 7 % )
+    Total combinational functions : 1,475 / 22,320 ( 7 % )
+    Dedicated logic registers : 811 / 22,320 ( 4 % )
+Total registers : 811
+Total pins : 12 / 154 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 171,264 / 608,256 ( 28 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

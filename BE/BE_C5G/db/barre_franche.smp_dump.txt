@@ -1,0 +1,46 @@
+
+State Machine - |barre_franche|my_sopc:inst2|gestion_compas:gestion_compas_0|State
+Name State.acq State.mono State.cont State.init 
+State.init 0 0 0 0 
+State.cont 0 0 1 1 
+State.mono 0 1 0 1 
+State.acq 1 0 0 1 
+
+State Machine - |barre_franche|my_sopc:inst2|gestion_boutton:gestion_boutton_0|\double_bip:state_bip
+Name \double_bip:state_bip.s2 \double_bip:state_bip.s1 \double_bip:state_bip.s0 
+\double_bip:state_bip.s0 0 0 0 
+\double_bip:state_bip.s1 0 1 1 
+\double_bip:state_bip.s2 1 0 1 
+
+State Machine - |barre_franche|my_sopc:inst2|gestion_boutton:gestion_boutton_0|\gestion_bp:State
+Name \gestion_bp:State.s13 \gestion_bp:State.s12 \gestion_bp:State.s11 \gestion_bp:State.s10 \gestion_bp:State.s9 \gestion_bp:State.s8 \gestion_bp:State.s7 \gestion_bp:State.s6 \gestion_bp:State.s5 \gestion_bp:State.s4 \gestion_bp:State.s3 \gestion_bp:State.s2 \gestion_bp:State.s1 \gestion_bp:State.s0 
+\gestion_bp:State.s0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+\gestion_bp:State.s1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+\gestion_bp:State.s2 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+\gestion_bp:State.s3 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+\gestion_bp:State.s4 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+\gestion_bp:State.s5 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+\gestion_bp:State.s6 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+\gestion_bp:State.s7 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+\gestion_bp:State.s8 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+\gestion_bp:State.s9 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+\gestion_bp:State.s10 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+\gestion_bp:State.s11 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+\gestion_bp:State.s12 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+\gestion_bp:State.s13 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |barre_franche|my_sopc:inst2|gestion_anemometre:gestion_anemometre_0|State
+Name State.acq State.mono State.cont State.init 
+State.init 0 0 0 0 
+State.cont 0 0 1 1 
+State.mono 0 1 0 1 
+State.acq 1 0 0 1 
+
+State Machine - |barre_franche|my_sopc:inst2|my_sopc_nios2_qsys_0:nios2_qsys_0|my_sopc_nios2_qsys_0_nios2_oci:the_my_sopc_nios2_qsys_0_nios2_oci|my_sopc_nios2_qsys_0_jtag_debug_module_wrapper:the_my_sopc_nios2_qsys_0_jtag_debug_module_wrapper|my_sopc_nios2_qsys_0_jtag_debug_module_tck:the_my_sopc_nios2_qsys_0_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
