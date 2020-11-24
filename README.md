@@ -4,8 +4,6 @@
 ## "Binôme Madouni|Abbih "
 
 
-## " Dosier BE contient partie anemometre validé pendant le TP + BE sur carte C5G"
-
 
 ## " Dossier carte_DE2 contient le mini projet"
 
