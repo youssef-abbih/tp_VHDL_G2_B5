@@ -104,10 +104,10 @@ int main()
   alt_putstr("Hello from Nios II!\n");
   /******************pwm compas*****************************************/
        *freq_compas=0x1388;// pour avoir une frequence de 10k
-       *duty_compas = 0x200;
+       *duty_compas = 0x1f1;
        *control_compas = 0x3;
   /*************************pwm anemometre******************************/
-       *freq_anemo=0x3D090;// pour avoir une frequence de 200HZ
+       *freq_anemo=0x1da2;// pour avoir une frequence de 100HZ
        *duty_anemo = 0x200;
        *control_anemo = 0x3;
        *config=0x3;
@@ -120,23 +120,33 @@ int main()
   while (1){
 
        printf ("la vitesse du vent: %d Km/h\n ",a);
-       printf ("angle: %d° \n ",b);
+       delay(500000);
       *duty_compas=(*duty_compas)+10;
+      printf ("angle: %d° \n ",b);
+       delay(1000000);
+
        Code1=*Code_fonction;
        if (Code1 == 0)
        printf("mode standBy 0000 \n");
+       delay(1000000);
        if (Code1 == 1)
        printf("manuel Babord 0001 \n");
+       delay(1000000);
        if (Code1 == 2)
        printf("manuel tribord 0010 \n");
+       delay(1000000);
        if (Code1 == 3)
        printf("mode automatique 0011 \n");
+       delay(1000000);
        if (Code1 == 4)
        printf("increment par 1° babord 0100 \n");
+       delay(1000000);
        if (Code1 == 5)
        printf("increment par 10° babord 0101 \n");
+       delay(1000000);
        if (Code1 == 6)
        printf("increment par 1° tribord 0110 \n");
+       delay(1000000);
        if (Code1 == 7)
        printf("increment par 10° tribord 0111 \n");
        delay(500000);

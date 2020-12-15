@@ -1,5 +1,5 @@
 Assembler report for barre_franche
-Mon Nov 23 23:40:38 2020
+Mon Dec 14 09:22:46 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Nov 23 23:40:38 2020 ;
+; Assembler Status      ; Successful - Mon Dec 14 09:22:46 2020 ;
 ; Revision Name         ; barre_franche                         ;
 ; Top-level Entity Name ; barre_franche                         ;
 ; Family                ; Cyclone V                             ;
@@ -103,8 +103,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                               ;
 +----------------+-----------------------------------------------------------------------+
 ; Device         ; 5CGXFC5C6F27C7                                                        ;
-; JTAG usercode  ; 0x015A6481                                                            ;
-; Checksum       ; 0x015A6481                                                            ;
+; JTAG usercode  ; 0x015B1C02                                                            ;
+; Checksum       ; 0x015B1C02                                                            ;
 +----------------+-----------------------------------------------------------------------+
 
 
@@ -114,13 +114,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Nov 23 23:40:24 2020
+    Info: Processing started: Mon Dec 14 09:22:31 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off barre_franche -c barre_franche
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4764 megabytes
-    Info: Processing ended: Mon Nov 23 23:40:38 2020
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Processing ended: Mon Dec 14 09:22:46 2020
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:12
 
 

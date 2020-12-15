@@ -445,7 +445,7 @@ VCCA_FPLL                    : J6        : power  :                   : 2.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : J7        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J8        :        :                   :         : 8A        :                
 GND                          : J9        : gnd    :                   :         :           :                
-out_bip                      : J10       : output : 2.5 V             :         : 8A        : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J10       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J11       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J12       :        :                   :         : 7A        :                
 VCC                          : J13       : power  :                   : 1.1V    :           :                
@@ -494,7 +494,7 @@ VCCH_GXBL                    : L3        : power  :                   : 2.5V    
 GND                          : L4        : gnd    :                   :         :           :                
 NC                           : L5        :        :                   :         :           :                
 MSEL1                        : L6        : input  :                   :         : 9A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L7        :        :                   :         : 8A        :                
+out_bip                      : L7        : output : 2.5 V             :         : 8A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : L8        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : L9        :        :                   :         : 8A        :                
 GND                          : L10       : gnd    :                   :         :           :                

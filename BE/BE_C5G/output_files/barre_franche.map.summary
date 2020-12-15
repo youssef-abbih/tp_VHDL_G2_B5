@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Mon Nov 23 23:38:25 2020
+Analysis & Synthesis Status : Successful - Mon Dec 14 09:20:29 2020
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : barre_franche
 Top-level Entity Name : barre_franche
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 1499
+Total registers : 1504
 Total pins : 8
 Total virtual pins : 0
 Total block memory bits : 171,264

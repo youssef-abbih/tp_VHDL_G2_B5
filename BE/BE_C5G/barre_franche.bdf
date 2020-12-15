@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 176 144 344 160)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clk" (rect 5 0 20 12)(font "Arial" ))
+	(text "clk" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,12 +34,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 120 160 176 176))
 )
 (pin
 	(input)
 	(rect 264 296 432 312)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "BP_Babord" (rect 5 0 60 12)(font "Arial" ))
+	(text "BP_Babord" (rect 5 0 59 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -50,12 +51,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 208 312 264 328))
 )
 (pin
 	(input)
 	(rect 264 344 432 360)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "BP_Tribord" (rect 5 0 59 12)(font "Arial" ))
+	(text "BP_Tribord" (rect 5 0 58 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -66,12 +68,13 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 208 360 264 376))
 )
 (pin
 	(input)
 	(rect 264 384 432 400)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "BP_STBY" (rect 5 0 54 12)(font "Arial" ))
+	(text "BP_STBY" (rect 5 0 53 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -82,6 +85,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 208 400 264 416))
 )
 (pin
 	(output)
@@ -99,6 +103,7 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
+	(annotation_block (location)(rect 344 560 400 576))
 )
 (pin
 	(output)
@@ -116,6 +121,7 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
+	(annotation_block (location)(rect 328 520 376 536))
 )
 (pin
 	(output)
@@ -133,6 +139,7 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
+	(annotation_block (location)(rect 368 480 424 496))
 )
 (pin
 	(output)
@@ -150,6 +157,7 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
+	(annotation_block (location)(rect 368 440 416 456))
 )
 (symbol
 	(rect 464 80 1024 624)

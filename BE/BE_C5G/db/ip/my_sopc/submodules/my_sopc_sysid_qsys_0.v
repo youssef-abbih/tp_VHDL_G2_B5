@@ -36,7 +36,7 @@ module my_sopc_sysid_qsys_0 (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1606171068 : 0;
+  assign readdata = address ? 1607933981 : 0;
 
 endmodule
 

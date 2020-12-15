@@ -24,14 +24,15 @@ signal count_100: integer:=1;
 signal tmp_1 : std_logic := '0';
 signal tmp_50 : std_logic := '0';
 signal tmp_100 : std_logic := '0';
+signal s : integer range 0 to 7;
+signal led_faible,led_intense : std_logic;
+signal d : std_logic_vector (7 downto 0);
 TYPE State_button IS (s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13);
 TYPE States_bip IS (s0,s1,s2);
-
-
 begin
 
 --********************************************************************
---machine à état de gestion des bp
+--state machine bouton poussoir
 --********************************************************************
 gestion_bp:process (raz_n, clk_100)
 variable State : State_button;
@@ -51,17 +52,17 @@ begin
 		if BP_STBY='0' then 
 		state:=s3; codeFonction <="0000"; 
 		end if;
-		ledSTBY <= clk_1Hz; ledBabord <= clk_50; ledTribord <= clk_50;
+		ledSTBY <= clk_1Hz; ledBabord <= led_faible; ledTribord <= led_faible;
 	when s1 =>
 		if BP_Babord='1' then 
 		state:=s0; codeFonction <="0000";
 		end if;
-		ledSTBY <= clk_1Hz; ledBabord <= clk_50; ledTribord <= clk_50;
+		ledSTBY <= clk_1Hz; ledBabord <= led_intense; ledTribord <= '0';
 	when s2 =>
 		if BP_Tribord='1' then 
 		state:=s0; codeFonction <="0000";
 		end if;
-		ledSTBY <= clk_1Hz; ledBabord <= clk_50; ledTribord <= clk_50;
+		ledSTBY <= clk_1Hz; ledBabord <= '0'; ledTribord <= led_intense;
 	when s3 =>
 		if BP_STBY='1' then 
 		state:=s4; codeFonction <="0011";
@@ -249,8 +250,33 @@ begin
 	end case;
 	end if;
 end process double_bip;
---********************************************************************
 
+--********************************************************************
+-- intensité des leds
+--********************************************************************
+intensite_LED: process(clk_100,raz_n,s)
+begin
+    if raz_n='0' then
+        s<=0;
+    elsif clk_100'event and clk_100 ='1' then
+        s <= s + 1;
+        if (s=6) then
+            s <= 0;
+        end if;
+        case s is
+             when 0 => d <="10000000";
+        	 when 1 => d <="11000000";
+        	 when 2 => d <="11100000";
+        	 when 3 => d <="11110000";
+        	 when 4 => d <="11111000";
+        	 when 5 => d <="11111100";
+        	 when 6 => d <="11111110";
+        	 when others => d <="00000000";
+    	end case;
+    end if;
+	led_faible <= d(1);
+	led_intense <= d(7);
+end process intensite_LED;
 --0000000000000000000000000000000000000000000000000000000000000000
 -- 				interface bus avalon
 --******************************************************111
