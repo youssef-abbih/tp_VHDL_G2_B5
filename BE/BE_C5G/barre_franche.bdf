@@ -38,7 +38,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 264 296 432 312)
+	(rect 264 304 432 320)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "BP_Babord" (rect 5 0 59 12)(font "Arial" ))
 	(pt 168 8)
@@ -51,7 +51,11 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+<<<<<<< HEAD
 	(annotation_block (location)(rect 208 312 264 328))
+=======
+	(annotation_block (location)(rect 208 320 264 336))
+>>>>>>> e20e06facae857567be6bbb78c76178087ece076
 )
 (pin
 	(input)
@@ -89,7 +93,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 168 544 344 560)
+	(rect 192 544 368 560)
 	(text "OUTPUT" (rect 137 6 175 16)(font "Arial" (font_size 6)))
 	(text "out_bip" (rect 51 4 86 16)(font "Arial" ))
 	(pt 176 8)
@@ -103,11 +107,15 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
+<<<<<<< HEAD
 	(annotation_block (location)(rect 344 560 400 576))
+=======
+	(annotation_block (location)(rect 368 560 424 576))
+>>>>>>> e20e06facae857567be6bbb78c76178087ece076
 )
 (pin
 	(output)
-	(rect 152 504 328 520)
+	(rect 192 504 368 520)
 	(text "OUTPUT" (rect 137 6 175 16)(font "Arial" (font_size 6)))
 	(text "LedSTBY" (rect 40 4 86 16)(font "Arial" ))
 	(pt 176 8)
@@ -121,7 +129,11 @@ applicable agreement for further details.
 		(line (pt 98 4)(pt 94 8))
 	)
 	(rotate180)
+<<<<<<< HEAD
 	(annotation_block (location)(rect 328 520 376 536))
+=======
+	(annotation_block (location)(rect 368 520 416 536))
+>>>>>>> e20e06facae857567be6bbb78c76178087ece076
 )
 (pin
 	(output)
@@ -308,48 +320,16 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 240 192)
-	(pt 464 192)
-)
-(connector
-	(pt 240 192)
-	(pt 240 272)
-)
-(connector
 	(pt 464 232)
 	(pt 1192 232)
-)
-(connector
-	(pt 1192 232)
-	(pt 1192 704)
-)
-(connector
-	(pt 448 592)
-	(pt 448 704)
 )
 (connector
 	(pt 464 592)
 	(pt 448 592)
 )
 (connector
-	(pt 1192 704)
-	(pt 448 704)
-)
-(connector
-	(pt 240 272)
-	(pt 464 272)
-)
-(connector
 	(pt 344 152)
 	(pt 464 152)
-)
-(connector
-	(pt 464 312)
-	(pt 432 312)
-)
-(connector
-	(pt 432 312)
-	(pt 432 304)
 )
 (connector
 	(pt 464 352)
@@ -360,10 +340,6 @@ applicable agreement for further details.
 	(pt 432 392)
 )
 (connector
-	(pt 464 552)
-	(pt 344 552)
-)
-(connector
 	(pt 464 472)
 	(pt 368 472)
 )
@@ -372,6 +348,38 @@ applicable agreement for further details.
 	(pt 368 432)
 )
 (connector
-	(pt 328 512)
+	(pt 464 192)
+	(pt 440 192)
+)
+(connector
+	(pt 440 192)
+	(pt 440 272)
+)
+(connector
+	(pt 464 272)
+	(pt 440 272)
+)
+(connector
+	(pt 464 312)
+	(pt 432 312)
+)
+(connector
+	(pt 368 512)
 	(pt 464 512)
+)
+(connector
+	(pt 464 552)
+	(pt 368 552)
+)
+(connector
+	(pt 1192 232)
+	(pt 1192 640)
+)
+(connector
+	(pt 448 592)
+	(pt 448 640)
+)
+(connector
+	(pt 1192 640)
+	(pt 448 640)
 )

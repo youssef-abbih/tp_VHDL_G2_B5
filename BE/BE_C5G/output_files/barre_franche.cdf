@@ -4,7 +4,11 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
+<<<<<<< HEAD
 		Device PartName(5CGXFC5C6F27) Path("C:/Users/youss/Desktop/BE_C5G/output_files/") File("barre_franche.sof") MfrSpec(OpMask(1));
+=======
+		Device PartName(5CGXFC5C6F27) Path("C:/Users/youss/Desktop/tp_VHDL_G2_B5/BE/BE_C5G/output_files/") File("barre_franche.sof") MfrSpec(OpMask(1));
+>>>>>>> e20e06facae857567be6bbb78c76178087ece076
 
 ChainEnd;
 
